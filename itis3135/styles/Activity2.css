@@ -5,6 +5,8 @@ body
 {
 	width: 750px;
 	margin: 0 auto;
+	background-color: black;
+	color:white
 }
 
 table
@@ -16,13 +18,13 @@ table
 
 thead
 {
-	background-color: green;
+	background-color: navy;
 }
 
 th, td
 {
 	border: 1px solid black;
-	padding: .2em 1em .2em .5em;
+	padding: .2em 1em .2em .1em;
 	text-align: left;
 	vertical-align: middle;
 }
@@ -32,7 +34,11 @@ th, td
 	text-align: right;
 }
 
-tbody tr:nth-child(odd) td
+tbody tr:nth-child(even) td
 {
-	background-color: lightgreen;
+	background-color: grey;
+}
+
+.center{
+	text-align:center;
 }
