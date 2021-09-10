@@ -34,7 +34,7 @@ th, td
 	text-align: right;
 }
 
-tbody tr:nth-child(even) td
+tbody tr:nth-child(odd) td
 {
 	background-color: grey;
 }
