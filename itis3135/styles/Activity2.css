@@ -5,7 +5,7 @@ body
 {
 	width: 750px;
 	margin: 0 auto;
-	background-color: light-grey;
+	background-color: #C0C0C0;
 	color:black
 }
 
@@ -18,7 +18,7 @@ table
 
 thead
 {
-	background-color: navy;
+	background-color: cyan;
 }
 
 th, td
@@ -36,7 +36,7 @@ th, td
 
 tbody tr:nth-child(odd) td
 {
-	background-color: grey;
+	background-color: #FFD700;
 }
 
 .center{
