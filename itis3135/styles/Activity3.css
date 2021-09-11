@@ -3,7 +3,7 @@
 /*styling for the whole page goes here*/
 body {
 	font-size: 16px;
-    background-color: #321c20;
+    background-color: #800020;
 	color: #E4EDF1;
 }
 
@@ -13,8 +13,13 @@ h1 {
 	font-style: italic;
 	font-size: 30px;
     text-align: center;
-    background-color: #996600;
+    background-color: #722F37;
 	color: #f8f8f8;
+}
+h2 {
+	font-style: bold;
+	font-style: italic;
+	
 }
 
 /*styling for the overall table*/
