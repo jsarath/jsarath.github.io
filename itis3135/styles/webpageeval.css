@@ -24,9 +24,8 @@ h2 {
 
 /*styling for the bottom copyright information*/
 footer {
-    font-style: italic;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 20px;
 	text-align: center;
 }
 .center{
