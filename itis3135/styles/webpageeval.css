@@ -32,20 +32,15 @@ footer {
 .center{
 	text-align: center;
 	}
-.leftB{
+.border{
 	border-bottom: 5px solid #722F37;
 	border-left:5px solid #722F37;
 	border-right:5px solid #722F37;
 	border-top:5px solid #722F37;
 	text-align:left;
 }
-.rightB{
-	border-bottom: 5px solid #722F37;
-	border-left:5px solid #722F37;
-	border-right:5px solid #722F37;
-	border-top:5px solid #722F37;
-	text-align:right;
-}
+
+
 
 .linkcolor{
 color: #E4EDF1;
