@@ -1,4 +1,4 @@
-/*Default css file*/
+/*ITIS 3135 Activity 3 css file*/
 
 /*styling for the whole page goes here*/
 body {
@@ -61,17 +61,7 @@ footer {
 .center{
 	text-align: center;
 	}
-.leftB{
-	border-bottom: 5px ridge #722F37;
-	border-left:5px ridge #722F37;
-	border-right:5px ridge #722F37;
-	border-top:5px ridge #722F37;
-	text-align:left;
-}
-.rightB{
-	border-bottom: 5px ridge #722F37;
-	border-left:5px ridge #722F37;
-	border-right:5px ridge #722F37;
-	border-top:5px ridge #722F37;
-	text-align:right;
-}
+	button{
+		background-color:black;
+		color:#E4EDF1
+	}
