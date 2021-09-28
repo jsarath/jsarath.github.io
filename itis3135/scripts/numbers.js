@@ -1,3 +1,7 @@
-var number = prompt("The Jawless Snake would like a number between 1-10");
-
-<p>"text from js"</p>
+function myFunction() {
+  var person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+}
