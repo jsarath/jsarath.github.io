@@ -5,7 +5,7 @@ var feeling = prompt("How are you feeling?");
 //Get date information
 var today = new Date();
 var date = (today.getMonth()+1) +"-"+ today.getDate()+"-"+today.getFullYear();
-var time = today.getHours()+":" today.getMinutes();
+var time = today.getHours()+":";
 
 //access specific elements quickly
 document.getElementById("name").innerHTML = name;
