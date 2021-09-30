@@ -1,11 +1,11 @@
 ///Variables to get users to enter name and feelings
-var name = prompt("What is your name?");
-var feeling = prompt("How are you feeling?");
+let name = prompt("What is your name?");
+let feeling = prompt("How are you feeling?");
 
 //Get date information
-var today = new Date();
-var date = (today.getMonth()+1) +"-"+ today.getDate()+"-"+today.getFullYear();
-var time = today.getHours()+":";
+let today = new Date();
+let date = (today.getMonth()+1) +"-"+ today.getDate()+"-"+today.getFullYear();
+let time = today.getHours()+":";
 
 //access specific elements quickly
 document.getElementById("name").innerHTML = name;
