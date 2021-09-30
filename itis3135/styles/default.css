@@ -1,67 +1,44 @@
-/*ITIS 3135 Activity 3 css file*/
+/*ITIS 3135 Activity 2 css file*/
 
-/*styling for the whole page goes here*/
-body {
-	font-size: 16px;
-    background-color: #800020;
-	color: #E4EDF1;
+/*styling for the table goes here*/
+body
+{
+	width: 750px;
+	margin: 0 auto;
+	background-color: #C0C0C0;
+	color:black
 }
 
-/*styling for the page title*/
-h1 {
-	font-weight: bold;
-	font-style: italic;
-	font-size: 30px;
-    text-align: center;
-    background-color: #722F37;
-	color: #f8f8f8;
-}
-h2 {
-	font-weight: bold;
-	font-style: italic;
+table
+{
+	border-collapse: collapse;
 	
+	margin: 20px;
 }
 
-/*styling for the overall table*/
-table {
-    background-color: #F8F8F8;
-	border: solid 2px #787878;
+thead
+{
+	background-color: cyan;
 }
 
-/*styling for the title of the table*/
-th {
-    font-weight: bold;
-    text-align: left;
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .1em;
+	text-align: left;
+	vertical-align: middle;
 }
 
-/*styling for the coffee types*/
-.label {
-    font-weight: bold;
-	color:  #E4EDF1;
+.right
+{
+	text-align: right;
 }
 
-/*styling for the tables*/
-.altrow {
-	background-color: #E0E0E0;
+tbody tr:nth-child(odd) td
+{
+	background-color: #FFD700;
 }
 
-/*styling for the Google Map link*/
-#locationlink {
-	color: #380000;
-	font-style:italic;
-}
-
-/*styling for the bottom copyright information*/
-footer {
-    font-style: italic;
-	font-weight: bold;
-	font-size: 12px;
-	text-align: center;
-}
 .center{
-	text-align: center;
-	}
-	button{
-		background-color:black;
-		color:#E4EDF1
-	}
+	text-align:center;
+}
