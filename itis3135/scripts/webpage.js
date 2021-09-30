@@ -1,4 +1,3 @@
-alert("Yo");
 ///Variables to get users to enter name and feelings
 var name = prompt("What is your name?");
 var feeling = prompt("How are you feeling?");
