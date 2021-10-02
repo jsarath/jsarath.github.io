@@ -6,7 +6,7 @@ body
 	width: 750px;
 	margin: 0 auto;
 	background-color: #f7f7f2;
-	color: #222725;
+	color: #3a5047;
 }
 
 table
@@ -43,7 +43,7 @@ tbody tr:nth-child(odd) td
 	text-align:center;
 }
 html {
-	background-color: #121113;
+	background-color: #4b3463;
 	font-family: Arial;
 }
 
