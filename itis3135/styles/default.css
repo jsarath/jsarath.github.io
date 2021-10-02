@@ -1,14 +1,6 @@
 /*ITIS 3135 Activity 2 css file*/
 
 /*styling for the table goes here*/
-body
-{
-	width: 750px;
-	margin: 0 auto;
-	background-color: #C0C0C0;
-	color:black
-}
-
 table
 {
 	border-collapse: collapse;
@@ -41,4 +33,24 @@ tbody tr:nth-child(odd) td
 
 .center{
 	text-align:center;
+}
+html {
+	background-color: #121113;
+	font-family: Arial;
+}
+
+main {
+	background-color: #f7f7f2;
+	color: #222725;
+}
+
+title{
+color: #222725;
+}
+
+header {
+	background-color: #899878;
+	display: grid;
+	grid-column-gap: 10px;
+	color: #E4E6C3;
 }
