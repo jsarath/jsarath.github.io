@@ -40,6 +40,5 @@ function shape() {
 
         default: //tell user if input is incorrect and ask again
             alert("Way to break the machine! Try Again! Need a number between 1 and 10.");
-            shape();
     }
 }
