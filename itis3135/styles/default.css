@@ -1,4 +1,4 @@
-/*ITIS 3135 Activity 2 css file*/
+/*default*/
 
 /*styling for the table goes here*/
 body
@@ -53,11 +53,11 @@ main {
 }
 
 title{
-color: #222725;
+color: #384e45;
 }
 
 header {
-	background-color: #899878;
+	background-color: #121b08;
 	display: grid;
 	grid-column-gap: 10px;
 	color: #666848;
