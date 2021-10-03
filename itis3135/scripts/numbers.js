@@ -4,7 +4,7 @@ document.getElementById("shape").innerHTML = sides + " sided polygon";
 
 function shape() {
     //Get integer input for side
-    sides = parseInt(prompt("How many sides do you want for your shape?")); s
+    sides = parseInt(prompt("How many sides do you want for your shape?"));
     //check num of side and display shape
     switch (sides) { 
         case 1:

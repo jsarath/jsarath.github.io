@@ -43,7 +43,7 @@ tbody tr:nth-child(odd) td
 	text-align:center;
 }
 html {
-	background-color: #4b3463;
+	background-color: #8b7d9b;
 	font-family: Arial;
 }
 
@@ -60,5 +60,5 @@ header {
 	background-color: #899878;
 	display: grid;
 	grid-column-gap: 10px;
-	color: #E4E6C3;
+	color: #666848;
 }
