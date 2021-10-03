@@ -5,6 +5,8 @@ document.getElementById("shape").innerHTML = sides + " sided polygon";
 function shape() {
     //Get integer input for side
     sides = parseInt(prompt("How many sides do you want for your shape?"));
+    //round and absolute
+    sides = Math.round(Math.abs(sides));
     //check num of side and display shape
     switch (sides) { 
         case 1:
