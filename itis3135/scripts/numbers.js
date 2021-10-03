@@ -10,37 +10,37 @@ function shapes() {
     //check num of side and change text to match the number
     switch (sides) { 
         case 1:
-            document.getElementById("shape").innerHTML = "monogon";
+            document.getElementById("shapes").innerHTML = "monogon";
             break;
         case 2:
-            document.getElementById("shape").innerHTML = "digon";
+            document.getElementById("shapes").innerHTML = "digon";
             break;
         case 3:
-            document.getElementById("shape").innerHTML = "trigon";
+            document.getElementById("shapes").innerHTML = "trigon";
             break;
         case 4:
-            document.getElementById("shape").innerHTML = "tetragon";
+            document.getElementById("shapes").innerHTML = "tetragon";
             break;
         case 5:
-            document.getElementById("shape").innerHTML = "pentagon";
+            document.getElementById("shapes").innerHTML = "pentagon";
             break;
         case 6:
-            document.getElementById("shape").innerHTML = "hexagon";
+            document.getElementById("shapes").innerHTML = "hexagon";
             break;
         case 7:
-            document.getElementById("shape").innerHTML = "heptagon";
+            document.getElementById("shapes").innerHTML = "heptagon";
             break;
         case 8:
-            document.getElementById("shape").innerHTML = "octagon";
+            document.getElementById("shapes").innerHTML = "octagon";
             break;
         case 9:
-            document.getElementById("shape").innerHTML = "enneagon";
+            document.getElementById("shapes").innerHTML = "enneagon";
             break;
         case 10:
-            document.getElementById("shape").innerHTML = "decagon";
+            document.getElementById("shapes").innerHTML = "decagon";
             break;
 
-        default: //tell user if input is incorrect and ask again
+        default: //tell user if input is incorrect and try again
             alert("Way to break the machine! Try Again! Need a number between 1 and 10.");
             shapes()
     }
