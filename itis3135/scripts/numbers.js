@@ -1,3 +1,8 @@
+/**
+ * I did this on my own
+ * Jimmy Sarath
+ */
+
 let sides = prompt("Jawless Snakes needs a number between 1-10.");
 //Get and set a basic shape
 document.getElementById("shape").innerHTML = sides + " sided polygon"; 
