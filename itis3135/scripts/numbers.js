@@ -8,34 +8,34 @@ function shape() {
     //check num of side and display shape
     switch (sides) { 
         case 1:
-            document.getElementById("shape").innerHTML = "monogon";
+            document.getElementById("shape").innerHTML = "Monogon";
             break;
         case 2:
-            document.getElementById("shape").innerHTML = "digon";
+            document.getElementById("shape").innerHTML = "Digon";
             break;
         case 3:
-            document.getElementById("shape").innerHTML = "trigon";
+            document.getElementById("shape").innerHTML = "Trigon";
             break;
         case 4:
-            document.getElementById("shape").innerHTML = "tetragon";
+            document.getElementById("shape").innerHTML = "Tetragon";
             break;
         case 5:
-            document.getElementById("shape").innerHTML = "pentagon";
+            document.getElementById("shape").innerHTML = "Pentagon";
             break;
         case 6:
-            document.getElementById("shape").innerHTML = "hexagon";
+            document.getElementById("shape").innerHTML = "Hexagon";
             break;
         case 7:
-            document.getElementById("shape").innerHTML = "heptagon";
+            document.getElementById("shape").innerHTML = "Heptagon";
             break;
         case 8:
-            document.getElementById("shape").innerHTML = "octagon";
+            document.getElementById("shape").innerHTML = "Octagon";
             break;
         case 9:
-            document.getElementById("shape").innerHTML = "enneagon";
+            document.getElementById("shape").innerHTML = "Enneagon";
             break;
         case 10:
-            document.getElementById("shape").innerHTML = "decagon";
+            document.getElementById("shape").innerHTML = "Decagon";
             break;
 
         default: //tell user if input is incorrect and ask again
