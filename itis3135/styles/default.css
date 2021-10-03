@@ -62,3 +62,7 @@ header {
 	grid-column-gap: 10px;
 	color: #cfd1ad;
 }
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: underline;
+}
