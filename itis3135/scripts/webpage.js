@@ -5,7 +5,7 @@ let feeling = prompt("How are you feeling?");
 //Get date information
 let today = new Date();
 let date = (today.getMonth()+1) +"-"+ today.getDate()+"-"+today.getFullYear();
-let time = today.getHours()+":" + today.getMinutes();
+let time = today.getHours()+":" + today.getMinutes;
 
 //access specific elements quickly
 document.getElementById("name").innerHTML = name;
