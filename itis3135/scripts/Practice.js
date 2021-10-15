@@ -6,12 +6,10 @@ window.onload = function() {
 	//item capp
 	//add onclick event handler for each image
 	document.getElementById("cappuccino").onclick=function(){
-		document.getElementById("order").append('$3.45 - Cappuccino - Delicious Cappuccino.');};
-	// for click event add item to order and update total
-	document.getElementById("cappuccino").onclick=function(){
-		total = (parseFloat(total) + parseFloat(3.45)).toFixed(2);};
+		document.getElementById("order").append('$3.45 - Cappuccino - Delicious Cappuccino.');
+	// for click event add item to order and update total{
+		total = (parseFloat(total) + parseFloat(3.45)).toFixed(2);
 	// display order and total
-	document.getElementById("cappuccino").onclick=function(){
 		document.getElementById("total").innerHTML="<em>Total:"+total+" </em>";
 	};
 
