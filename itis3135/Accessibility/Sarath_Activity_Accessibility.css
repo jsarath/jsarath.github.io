@@ -91,5 +91,13 @@ abbr {
   text-decoration: none;
   cursor: pointer;
 }
+.submit {
+  color: #afceb8;
+  background-color: #0a087a;
+}
 
+#submit {
+  color: #afceb8;
+  background-color: #0a087a;
+}
 
