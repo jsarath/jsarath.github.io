@@ -17,7 +17,7 @@ window.onload = function() {
 	//item espr
 	//add onclick event handler for each image
 	document.getElementById("espresso").onclick=function(){
-		document.getElementById("order").append.innerHTML('$1.95 - Espresso - Delicious espresso. Wanna try it?');
+		document.getElementById("order").append('$1.95 - Espresso - Delicious espresso. Wanna try it?');
 	// for click event add item to order and update total
 		total = (parseFloat(total) + parseFloat(1.95)).toFixed(2);
 	// display order and total
