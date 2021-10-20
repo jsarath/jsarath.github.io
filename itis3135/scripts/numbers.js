@@ -5,7 +5,7 @@
 
 let sides = prompt("Jawless Snakes needs a number between 1-10.");
 //Get and set a basic shape
-document.getElementById("shape").innerHTML = Math.round(sides) + " sided polygon"; 
+document.getElementById("shape").innerHTML = shape();/*Math.round(sides) + " sided polygon"; */
 
 function shape() {
     //Get integer input for side
