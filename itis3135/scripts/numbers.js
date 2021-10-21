@@ -48,7 +48,7 @@ function shape(sides) {
     if(isNaN(sides) || sides > 10) {
         alert("Need a number: 1-10")
         sides = prompt("Jawless Snakes needs a number between 1-10.");
-        Shape(sides);
+        shape(sides);
     } else if (sides < 0) {
         sides = Math.abs(sides);
     } else if (sides % 1 != 0) {
