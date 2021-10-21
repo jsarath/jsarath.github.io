@@ -3,16 +3,9 @@
  * Jimmy Sarath
  */
 
-let sides = prompt("Jawless Snakes needs a number between 1-10.");
-//Get and set a basic shape
-document.getElementById("shape").innerHTML = Math.round(sides) + " sided polygon";
 
-function shape() {
-    //Get integer input for side
-    sides = parseInt(prompt("How many sides do you want for your shape?"));
-    //round and absolute
-    sides = Math.round(Math.abs(sides));
-    //check num of side and display shape
+function shape(sides) {
+    
     switch (sides) { 
         case 1:
             document.getElementById("shape").innerHTML = "Monogon";
@@ -47,6 +40,25 @@ function shape() {
 
         default: //tell user if input is incorrect and ask again
             alert("Way to break the machine! Try Again! Need a number between 1 and 10.");
-            shape();
+            break;
+            
     }
+    //Function to validate the entry numberofsides
+    function validateEntry(sides) {
+    if(isNaN(sides) || sides > 10) {
+        sides = prompt("Jawless Snakes needs a number between 1-10.");
+        Shape(sides);
+    } else if (sides < 0) {
+        sides = Math.abs(sides);
+    } else if (sides % 1 != 0) {
+        sides = Math.round(sides);
+    }
+    return sides;
+}
+    //Get integer input for side
+    var sides = prompt("Jawless Snakes needs a number between 1-10.");
+    
+    //call functions
+    var valid = validateEntry(sides);
+    shape(valid);
 }
