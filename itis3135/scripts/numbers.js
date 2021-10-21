@@ -7,34 +7,34 @@ function getShape(sides) {
     
     switch (sides) { 
         case 1:
-            document.getElementById("shape").innerHTML = "Monogon";
+            alert ("A polygon with 1 side is called a Monogon");
             break;
         case 2:
-            document.getElementById("shape").innerHTML = "Digon";
+            alert ("A polygon with 2 side is called a digon");
             break;
         case 3:
-            document.getElementById("shape").innerHTML = "Trigon";
+            alert ("A polygon with 3 side is called a Trigon");
             break;
         case 4:
-            document.getElementById("shape").innerHTML = "Tetragon";
+            alert ("A polygon with 4 side is called a Tetragon");
             break;
         case 5:
-            document.getElementById("shape").innerHTML = "Pentagon";
+            alert ("A polygon with 5 side is called a Pentagon");
             break;
         case 6:
-            document.getElementById("shape").innerHTML = "Hexagon";
+            alert ("A polygon with 6 side is called a Hexagon");
             break;
         case 7:
-            document.getElementById("shape").innerHTML = "Heptagon";
+            alert ("A polygon with 7 side is called a Heptagon");
             break;
         case 8:
-            document.getElementById("shape").innerHTML = "Octagon";
+            alert ("A polygon with 8 side is called a Octagon");
             break;
         case 9:
-            document.getElementById("shape").innerHTML = "Enneagon";
+            alert ("A polygon with 9 side is called a Enneagon");
             break;
         case 10:
-            document.getElementById("shape").innerHTML = "Decagon";
+            alert ("A polygon with 10 side is called a Decagon");
             break;
 
         default: //tell user if input is incorrect and ask again
