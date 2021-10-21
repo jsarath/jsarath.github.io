@@ -4,44 +4,26 @@
  */
 
 function getShape(num) {
-    
-    switch (num) { 
-        case 1:
-            alert ("A polygon with 1 side is called a Monogon");
-            break;
-        case 2:
-            alert ("A polygon with 2 side is called a digon");
-            break;
-        case 3:
-            alert ("A polygon with 3 side is called a Trigon");
-            break;
-        case 4:
-            alert ("A polygon with 4 side is called a Tetragon");
-            break;
-        case 5:
-            alert ("A polygon with 5 side is called a Pentagon");
-            break;
-        case 6:
-            alert ("A polygon with 6 side is called a Hexagon");
-            break;
-        case 7:
-            alert ("A polygon with 7 side is called a Heptagon");
-            break;
-        case 8:
-            alert ("A polygon with 8 side is called a Octagon");
-            break;
-        case 9:
-            alert ("A polygon with 9 side is called a Enneagon");
-            break;
-        case 10:
-            alert ("A polygon with 10 side is called a Decagon");
-            break;
-
-        default: //tell user if input is incorrect and ask again
-            alert("Way to break the machine! Try Again! Need a number between 1 and 10.");
-            break;
-            
-    }
+if (numberofsides == 1)
+    alert ("Bruv polygon with 1 side is called a henagon!");
+if (numberofsides == 2)
+    alert ("Bruv polygon with 2 sides is called a digon!");
+if (numberofsides == 3) 
+    alert ("Bruv polygon with 3 sides is called a trigon!");
+if (numberofsides == 4)
+    alert ("Bruv polygon with 4 sides is called a tetragon!");
+if (numberofsides == 5)
+    alert ("Bruv polygon with 5 sides is called a pentagon!");
+if (numberofsides == 6)
+    alert ("Bruv polygon with 6 sides is called a hexagon!");
+if (numberofsides == 7)
+    alert ("Bruv polygon with 7 sides is called a heptagon!");
+if (numberofsides == 8) 
+    alert ("Bruv polygon with 8 sides is called a octagon!");
+if (numberofsides == 9)
+    alert ("Bruv polygon with 9 sides is called a enneagon!");
+if (numberofsides == 10)
+    alert ("Bruv polygon with 10 sides is called a decagon!");
 }
 //Function to validate the entry numberofsides
 function validateEntry(sides) {
