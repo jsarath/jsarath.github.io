@@ -3,7 +3,6 @@
  * Jimmy Sarath
  */
 
-
 function getShape(sides) {
     
     switch (sides) { 
@@ -43,8 +42,9 @@ function getShape(sides) {
             break;
             
     }
-    //Function to validate the entry numberofsides
-    function validateEntry(sides) {
+}
+//Function to validate the entry numberofsides
+function validateEntry(sides) {
     if(isNaN(sides) || sides > 10) {
         alert("Need a number: 1-10")
         sides = prompt("Jawless Snakes needs a number between 1-10.");
@@ -55,11 +55,9 @@ function getShape(sides) {
         sides = Math.round(sides);
     }
     return sides;
-}
+    }
     //Get integer input for side
-    var sides = prompt("Jawless Snakes needs a number between 1-10.");
-    
-    //call functions
-    var valid = validateEntry(sides);
-    getShape(valid);
-}
+var sides = prompt("Jawless Snakes needs a number between 1-10.");
+//call functions
+var valid = validateEntry(sides);
+getShape(valid);
