@@ -4,7 +4,7 @@
  */
 
 
-function shape(sides) {
+function getShape(sides) {
     
     switch (sides) { 
         case 1:
@@ -61,5 +61,5 @@ function shape(sides) {
     
     //call functions
     var valid = validateEntry(sides);
-    shape(valid);
+    getShape(valid);
 }
