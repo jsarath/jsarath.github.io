@@ -46,6 +46,7 @@ function shape(sides) {
     //Function to validate the entry numberofsides
     function validateEntry(sides) {
     if(isNaN(sides) || sides > 10) {
+        alert("Need a number: 1-10")
         sides = prompt("Jawless Snakes needs a number between 1-10.");
         Shape(sides);
     } else if (sides < 0) {
