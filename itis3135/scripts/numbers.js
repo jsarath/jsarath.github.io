@@ -3,9 +3,9 @@
  * Jimmy Sarath
  */
 
-function getShape(sides) {
+function getShape(num) {
     
-    switch (sides) { 
+    switch (num) { 
         case 1:
             alert ("A polygon with 1 side is called a Monogon");
             break;
