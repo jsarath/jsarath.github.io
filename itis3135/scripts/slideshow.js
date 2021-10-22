@@ -1,5 +1,4 @@
 //I got help from https://stackoverflow.com/questions/18238393/creating-slideshow-jquery
-$("#slideshow > div:gt(0)").hide();
 
 var index = 1;
 var maxindex = $('#slideshow > div').length;
