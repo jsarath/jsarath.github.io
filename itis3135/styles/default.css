@@ -182,7 +182,7 @@ button{
 .back, .forward{
 	float: left;
 	margin-top: 130px;
-	cursor: pointer;
+	cursor:pointer;
 }
 
 /*styling for the back arrow*/
