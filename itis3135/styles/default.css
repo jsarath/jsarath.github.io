@@ -66,3 +66,66 @@ a, a:hover, a:visited, a:active {
     color: inherit;
     text-decoration: underline;
 }
+
+/*ITIS 3135 Activity 7 css */
+.calculator {
+	border-radius: 12px;
+	box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	max-width: 20em;
+	overflow: hidden;
+}
+
+.calculator__display {
+	background-color: #363636;
+	color: rgb(120, 140, 194);
+	font-size: 1.714285714em;
+	padding: 0.5em 0.75em;
+	text-align: right;
+}
+
+.calculator__keys {
+	background-color: rgb(120, 140, 194);
+	display: grid;
+	grid-gap: 8px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator__keys > * {
+	background-color: rgb(12, 43, 219);
+	padding: 1.5em 2.25em;
+	position: relative;
+	text-align: center;
+}
+
+.calculator__keys > *:active::before,
+.calculator__keys > .is-depressed::before {
+	background-color: rgba(78, 62, 62, 0.2);
+	bottom: 0;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+	content: "";
+	left: 0;
+	opacity: 0.3;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.key--operator {
+	background-color: rgb(35, 38, 240);
+}
+
+.key--equal {
+	background-image: linear-gradient(to bottom, #e7613f, #d6957a);
+	grid-column: -2;
+	grid-row: 2 / span 4;
+}
+/*ITIS 3135 Activity 8 css */
+.array {
+        text-align: center;
+        font: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
