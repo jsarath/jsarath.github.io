@@ -94,7 +94,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .calculator__keys > * {
-	background-color: rgb(12, 43, 219);
+	background-color: rgb(12, 143, 219);
 	padding: 1.5em 2.25em;
 	position: relative;
 	text-align: center;
@@ -115,7 +115,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .key--operator {
-	background-color: rgb(35, 38, 240);
+	background-color: rgb(115, 117, 241);
 }
 
 .key--equal {
