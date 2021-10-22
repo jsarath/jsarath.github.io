@@ -144,40 +144,59 @@ button{
 	grid-row: 2 / span 4;
 }
 /*Slideshow*/
-#slideshow {
-    margin: 50px auto;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-#slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+/*styling for the container*/
+
+.container{
+	width: 540px;
+	margin: 40px auto;
+	overflow: auto;
 }
 
-#slideshow img {
-    max-width:240px;
-    max-height:240px;
+/*styling for the slideshow*/
+
+.slideshow{
+	width: 500px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+
 }
 
-ul {
-    list-style:none;
-    margin:0px;
-    padding:0px;
+/*styling for the slideshow images*/
+
+.slideshow img{
+	display: none;
+	width: 500px;
+	height: 400px;
 }
-ul li {
-    float:left;
-    border-radius:10px;
-    width:10px;
-    height:10px;
-    border:1px solid white;
-    background:grey;
+
+/*styling for the first slideshow image*/
+
+.slideshow img.first{
+	display: inline-block;
 }
-ul li.active {
-    background:black;
+
+/*styling for the back and forward arrows*/
+
+.back, .forward{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+/*styling for the back arrow*/
+
+.back{
+	position: relative;
+	margin-right: -50px;
+	z-index: 100;
+}
+
+/*styling for the forward arrow*/
+
+.forward{
+	position: relative;
+	margin-left: -50px;
+	z-index: 100;
 }
