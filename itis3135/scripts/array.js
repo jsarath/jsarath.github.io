@@ -19,7 +19,7 @@ function addSalary() {
     }
 }
 
-// https://stackoverflow.com/questions/29544371/finding-the-average-of-an-array-using-js
+// Using this site https://stackoverflow.com/questions/29544371/finding-the-average-of-an-array-using-js
 function displayResults() {
     var total = 0;
     var highest = 0;
