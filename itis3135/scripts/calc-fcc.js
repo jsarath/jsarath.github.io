@@ -123,4 +123,4 @@ const createResultString = (key, displayedNum, state) => {
     display.textContent = resultString
     updateCalculatorState(key, calculator, resultString, displayedNum)
     updateVisualState(key, calculator)
-  }
+  })
