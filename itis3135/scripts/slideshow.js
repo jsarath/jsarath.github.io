@@ -21,14 +21,5 @@ $(document).ready(function(){
         }
     });
 
-    $("#slideClick").click(function(evt) 
-    {
-        var imageURL = $(this).attr("href");
-        $("#mainImage").attr("src", imageURL);
-        var caption = $(this).attr("title");
-        $("#mainImageCaption").text(caption);
-        evt.preventDefault();
-    });
-
 
 });
