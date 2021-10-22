@@ -4,7 +4,7 @@ function userInfo() {
     var date = new Date();
     var todayDate = date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate();
     var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-    document.getElementById("info").innerHTML = ("Today is " + todayDate + ", and the time is " + time + ". The Sapphire Kangaroo Inc welcomes you, " + userName + "!" + " We're glad you are doing " + userMood + "!");
+    document.getElementById("info").innerHTML = ("Today is " + todayDate + ", and the time is " + time + ". The Jawless Snake Corp welcomes you, " + userName + "!" + " We're glad you are doing " + userMood + "!");
 }
 //1st button function
 function joke(){
