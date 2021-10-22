@@ -37,15 +37,13 @@ function displayResults() {
     document.getElementById("results").innerHTML = ("<h2>Results:</h2>" + "<p>Average: " + average + "</p>" +  "<p>Highest Salary: " + highest + "</p>");
 }
 
-// https://stackoverflow.com/questions/29335369/display-array-of-objects-in-a-dynamic-table-javascript
+//Using this site https://stackoverflow.com/questions/29335369/display-array-of-objects-in-a-dynamic-table-javascript
 function displaySalary() {
     var table = "<tr> <th>Employee Name</th> <th>Salary</th> </tr>"
     for(i = 0; i < people.length; i++) {
         table += "<tr>";
-
         table += "<td>" + people[i] + "</td>";
         table += "<td>" + salaries[i] + "</td>";
-
         table += "</tr>";
     }
     table += "</table>";
