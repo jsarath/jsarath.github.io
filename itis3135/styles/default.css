@@ -67,15 +67,23 @@ a, a:hover, a:visited, a:active {
 }
 
 button{
-	background-color: #874caf; 
-	border: none;
-	color: rgb(69, 109, 74);
-	padding: 15px 32px;
+	background-color: #d6957a; 
+	border: 2px solod #874caf;
+	color: rgb(0, 0, 0);
+	padding: 10px 24px;
+	border-radius: 12px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
 
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /*ITIS 3135 Activity 7 css */
