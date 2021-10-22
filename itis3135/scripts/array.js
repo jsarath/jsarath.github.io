@@ -1,59 +1,53 @@
-let person = [];
-let salaries = [];
+// Declaring two empty arrays
+var people = []
+var salaries = []
 
-person = document.getElementsByClassName("name");
-salaries = document.getElementsByClassName("salary");
+window.onload = function () {
+    document.getElementById("employeeNames").focus();
+}
 
 function addSalary() {
-    person = document.getElementsByClassName("name");
-    //these are to make the arrays = the table columns
-    salaries = document.getElementsByClassName("salary");
+    var person = document.getElementById("employeeNames").value;
+    var salary = document.getElementById("salary").value;
 
-    let name = prompt("Enter the name of the employee.");
-    let sal = parseFloat(prompt("Please enter their salary."));
+    if(salary == "" || salary < 0) {
+        alert("You must enter a salary value greater than 0");
 
-    if (typeOf(name) != "string" || sal.isNaN()) { //validate data entry
-        alert("One of your inputs was invalid. Employee name must be a string and employee salary must be a number without the $. Please try again.");
-    }
-
-    for (let i = 0; i < person.length; i -= -1) { //put the name into the first open slot in the table
-        if (person[i] == null) {
-            person[i] = name;
-        }
-    }
-
-    for (let j = 0; j < salaries.length; j -= -1) { //put the salary into the first open slot in the table
-        if (salaries[j] == null) {
-            salaries[j] = sal;
-        }
+    } else {
+        people.push(person);
+        salaries.push(salary);
     }
 }
 
+// https://stackoverflow.com/questions/29544371/finding-the-average-of-an-array-using-js
 function displayResults() {
-    let count = salaries.length - 1;
-    let avg, total;
-    let max = salaries[0];
-
-    for (let i = 0; i <= salaries.length - 1; i -= -1) { //loop through and add up the salaries
-        total += salaries[i];
-
-        if (salaries[i] > max) { //check for the max value
-            max = salaries[i];
-        }
+    var total = 0;
+    var highest = 0;
+    for(var i = 0; i < salaries.length; i++) {
+        total += parseInt(salaries[i]);
     }
+    var average = total / salaries.length ;
 
-    avg = total / count; //divide the total by the number of elements
+    for(j = 0; j < salaries.length; j++) {
+        if(salaries[j] > highest) {
+            highest = salaries[j];
+        }
+    } 
 
-    document.getElementById("avg").innerHTML = avg;
-    document.getElementById("high").innerHTML = max; //these 2 set 
+    document.getElementById("results").innerHTML = ("<h2>Results:</h2>" + "<p>Average: " + average + "</p>" +  "<p>Highest Salary: " + highest + "</p>");
 }
 
+// https://stackoverflow.com/questions/29335369/display-array-of-objects-in-a-dynamic-table-javascript
 function displaySalary() {
-    person = document.getElementsByClassName("name");
-    salaries = document.getElementsByClassName("salary");
+    var table = "<tr> <th>Employee Name</th> <th>Salary</th> </tr>"
+    for(i = 0; i < people.length; i++) {
+        table += "<tr>";
 
-    for (let i = 0; i < person.length; i -= -1) {
-        names[i].innerHTML = person[i];
-        salaries[i].innerHTML = salaries[i];
+        table += "<td>" + people[i] + "</td>";
+        table += "<td>" + salaries[i] + "</td>";
+
+        table += "</tr>";
     }
+    table += "</table>";
+    document.getElementById("results_table").innerHTML = ("<h2>Employee Salaries</h2>" + table);
 }

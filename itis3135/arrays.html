@@ -28,44 +28,42 @@
             ||
             <a href="shapes.html">Polygon Shapes</a>
             ||
-            <a href="calculator.html">calculator</a>
+            <a href="calculator.html">Calculator</a>
+            ||
+            <a href="Project-Yo.html">Project rand</a>
+            ||
+            <a href="arrays.html">Array</a>
+
 		</nav>
         <main>
-            <h2>Actions</h2>
-            <div class="center">
-                <button id="display" id="add-salary" onclick=addSalary()>Add Salary</button>
-                <button id="display" onclick=displayResults()>Display Results</button>
-                <button id="display" onclick=displaySalary()>Display Salary</button>
+            <div>
+                <label for="employeeNames">Employee Name:</label>
+                <select name="employeeNames" id="employeeNames">
+                    <option value="Riley Ried">Riley Ried</option>
+                    <option value="Lana Rhoades">Lana Rhoades</option>
+                    <option value="August Ames">August Ames</option>
+                    <option value="Johnny Sins">Johnny Sins</option>
+                    <option value="Mia Kalifa">Mia Kalifa</option>
+                    <option value="Remy LaCroix">Remy LaCroix</option>
+
+                <br>
+                <label for="salary">Salary:</label>
+                <input type="number" id="salary" placeholder="Enter Salary" required>
+                <br>
+                <br>
+                <button onclick="addSalary()" class="button">Add Salary</button>
+                <br>
+                <br>
+                <button onclick="displayResults()" class="button">Display Results</button>
+                <br>
+                <br>
+                <button onclick="displaySalary()" class="button">Display Salary</button>
             </div>
-            <br>
-            <p>Average Salary: <span id="avg">{$$$}</span> - Highest Salary: <span id="high">{$$$}</span></p>
-            <table id="data">
-                <tr>
-                    <th>Name</th>
-                    <th>Salary</th>
-                </tr>
-                <tr>
-                    <td class="name">N/A </th>
-                    <td class="salary">0</th>
-                </tr>
-                <tr>
-                    <td class="name">N/A </th>
-                    <td class="salary">0</th>
-                </tr>
-                <tr>
-                    <td class="name">N/A </th>
-                    <td class="salary">0</th>
-                </tr>
-                <tr>
-                    <td class="name">N/A </th>
-                    <td class="salary">0</th>
-                </tr>
-                <tr>
-                    <td class="name">N/A </th>
-                    <td class="salary">0</th>
-                </tr>
-            </table>
-            <br>
+        
+            <div id="results"></div>
+            <table id="results_table"></table>
+        </main>
+        
         </main>
         <Footer class="center">
 			
