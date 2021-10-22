@@ -1,18 +1,11 @@
-///Variables to get users to enter name and feelings
-let name = prompt("What is your name?");
-let feeling = prompt("How are you feeling?");
-
-//Get date information
-let today = new Date();
-let date = (today.getMonth()+1) +"-"+ today.getDate()+"-"+today.getFullYear();
-let time = today.getHours()+":" + today.getMinutes();
-
-//access specific elements quickly
-document.getElementById("name").innerHTML = name;
-document.getElementById("feeling").innerHTML = feeling;
-document.getElementById("date").innerHTML = date;
-document.getElementById("time").innerHTML = time;
-
+function userInfo() {
+    var userName = prompt("Enter your name: ");
+    var userMood = prompt("How are you feeling today?");
+    var date = new Date();
+    var todayDate = date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate();
+    var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    document.getElementById("info").innerHTML = ("Today is " + todayDate + ", and the time is " + time + ". The Sapphire Kangaroo Inc welcomes you, " + userName + "!" + " We're glad you are doing " + userMood + "!");
+}
 //1st button function
 function joke(){
 	//random integer
