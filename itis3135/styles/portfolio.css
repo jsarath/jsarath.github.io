@@ -1,8 +1,8 @@
 body
 {
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: #e5989b ;
-	background-color: #6d6875;
+	color: #3e78a7 ;
+	background-color: #c6c3cc;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -11,13 +11,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: #e5989b;
+	color: #13436b;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #e5989b;
+	color: #13436b;
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
 }
@@ -31,7 +31,7 @@ h3
 a
 {
 	text-decoration: none;
-	color:#ffb4a2;
+	color:#3de7e7;
 }
 
 a:hover
@@ -41,4 +41,4 @@ a:hover
 nav
 {
 	text-align: center;
-	
+}
