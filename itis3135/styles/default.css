@@ -152,50 +152,23 @@ button{
 	overflow: auto;
 }
 
-/*styling for the slideshow*/
-
-.slideshow{
-	width: 500px;
-	height: 400px;
-	position: relative;
-	float: left;
-
+/*styling for the gallery*/
+#caption, #gallery {
+	text-align: center;
 }
 
-/*styling for the slideshow images*/
-
-.slideshow img{
-	display: none;
-	width: 500px;
-	height: 400px;
+.bodyactivity9{
+	width: 420px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/*styling for the first slideshow image*/
-
-.slideshow img.first{
-	display: inline-block;
+.gallery{
+	margin: 0;
+	padding: 0;
 }
 
-/*styling for the back and forward arrows*/
-
-.back, .forward{
-	float: left;
-	margin-top: 130px;
-	cursor:pointer;
-}
-
-/*styling for the back arrow*/
-
-.back{
-	position: relative;
-	margin-right: -50px;
-	z-index: 100;
-}
-
-/*styling for the forward arrow*/
-
-.forward{
-	position: relative;
-	margin-left: -50px;
-	z-index: 100;
+.gallery{
+	padding: 0 0.25em;
+	display: inline;
 }
