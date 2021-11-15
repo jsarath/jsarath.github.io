@@ -1,9 +1,13 @@
 $(document).ready(function() {
     $("#slider").bxSlider({
         auto: true,
-        minSlides: 2,
-        maxSlides: 2,
-        slideWidth: 300,
-        slideMargin: 20
+        minSlides: 1,
+        maxSlides: 1,
+        randomStart: true,
+        slideWidth: 500,
+        slideMargin: 20,
+        shrinkItems: true,
+        pause: 3000,
+        captions: true
     });
 });
