@@ -1,4 +1,5 @@
 @import 'nav.css';
+@import 'footer.css';
 
 .head-sect{
     width: 100%;
@@ -162,10 +163,10 @@
     right: 0;
 }
 
-.pre-btn img, .nxt-btn img{
+.pre-btn images, .nxt-btn images{
     opacity: 0.2;
 }
 
-.pre-btn:hover img, .nxt-btn:hover img{
+.pre-btn:hover images, .nxt-btn:hover images{
     opacity: 1;
 }

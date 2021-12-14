@@ -3,10 +3,10 @@ const createFooter = () => {
 
     footer.innerHTML =`
         <div class="footer-content">
-        <img src="images/light-logo.png" class="logo" alt="">
+        <images src="images/title.jpg" class="logo" alt="">
         <div class="footer-ul-container">
             <ul class="category">
-                <li class="category-title">men</li>
+                <li class="category-title">Categories</li>
                 <li><a href="#" class="footer-link">t-shirts</a></li>
                 <li><a href="#" class="footer-link">sweatshirts</a></li>
                 <li><a href="#" class="footer-link">shirts</a></li>
@@ -22,7 +22,7 @@ const createFooter = () => {
     </div>
     
     
-    <p class="info">support emails - help@clothing.com, customersupport@clothing.com</p>
+    <p class="info">support emails - help@JSclothing.com, JScustomersupport@JSclothing.com</p>
     <p class="info">telephone - (999)123-4568
     <div class="footer-social-container">
         <div>
@@ -35,7 +35,7 @@ const createFooter = () => {
             <a href="#" class="social-link">twitter</a>
         </div>
     </div>
-    <p class="footer-credit">Clothing, Best apparels online store</p>
+    <p class="footer-credit">Just Sayin Clothing LLC</p>
     `;
 }
 

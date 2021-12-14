@@ -16,7 +16,7 @@ $(document).ready(function() {
         url = $(this).attr("href");
         title = $(this).attr("title");
         $("#caption").text(title);
-        $("img").attr("src",url);
+        $("images").attr("src",url);
         evt.preventDefault();
       
     });
